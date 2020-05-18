@@ -17,7 +17,7 @@ html {
 .column {
   float: left;
   width: 31%;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   padding: 0 7px;
 }
 
@@ -133,7 +133,7 @@ html {
   </div>
   <div class="column">
     <div class="card">
-      <img src="/img/Asha.jpg" style="width:100%; height: 200px">
+      <img src="/img/Asha.png" style="width:100%; height: 200px">
       <div class="container">
         <h3> Asha Bharadwaj </h3>
         <p class="title">Integrated photonic quantum networks</p>
@@ -190,7 +190,7 @@ html {
   <div class="row">
     <div class="column">
     <div class="card">
-      <img src="/img/rahul.jpg" style="width:240px; height: 200px; float: center;">
+      <img src="/img/rahul.png" style="width:240px; height: 200px; float: center;">
       <div class="container">
         <h3> Rahul Pandit</h3>
         <p class="title">Condensed matter theorey</p>

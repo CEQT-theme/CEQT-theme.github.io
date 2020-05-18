@@ -1,5 +1,5 @@
 ---
-layout: prism
+layout: page
 title: Home
 ---
 <style>
@@ -143,6 +143,34 @@ function showSlides() {
 <h3 style="color: #bb9065">Structure of the Research Centre:</h3>
 <p>A worthwhile effort in this high-risk-high-reward field has to blend both concrete deliverables and open-ended research investigations. Also, simultaneous explorations of competing technologies must complement each other, by contrasting their advantages and limitations. To make the best use of the available expertise, IISc has put together a structure involving people from different departments.</p>
 <p>This centre aims to deliver quantum enhanced technologies. Its experimental program will focus on superconducting qubit devices, single photon sources and detectors for quantum communications, integrated photonic quantum networks, and quantum sensors. It will benefit from the dedicated national nano-fabrication facility at IISc. The theoretical effort will certainly support the experimental program, while being broad-based enough to explore other open areas in this rapidly advancing field, in particular quantum algorithms and simulations, and post-quantum cryptography. The developments in quantum technologies will also push classical technologies in new directions.</p>
+
 <h3 style="color: #bb9065">Funding Support:</h3>
-<p>Creation of the Centre for Excellence in Quantum Technology by the
-Ministry of Electronics and Information Technology, Government of India</p>
+
+<img src="/img/MEIT.png" style="width: 200px; height: 90px; margin-left:80px;"> 
+
+<style>
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  margin-left: 70px
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<h3 style="color: #bb9065"> Partner Institutes: </h3>
+<div class = "row">
+  <div class = "column">
+        <a href="http://www.rri.res.in/"><img src="/img/RRI_Logo.png" style="width: 90px; height: 150px; "></a>
+  </div>
+  <div class = "column">
+        <a href="https://www.cdac.in/index.aspx?id=bangalore"><img src="/img/CDAC_Logo.png"></a>
+  </div>
+</div>
