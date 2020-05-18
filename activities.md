@@ -6,7 +6,6 @@ permalink: /activities/
 
 <style>
 
-
 .roadmap{
   width: 600px;
   margin: auto;
@@ -39,16 +38,16 @@ p:first-child {
   border-top: 0;
   border-top-right-radius:0;
   border-top-left-radius:0;
+}p:first-child {
+  border-top: 0;
+  border-top-right-radius:0;
+  border-top-left-radius:0;
 }
 
-p:last-child {
-  border-bottom-right-radius:0;
-  border-bottom-left-radius:0;
-}
+
 
 
 </style>
-
 
 <h3 style="color: #bb9065">Roadmap:</h3>
 
@@ -56,10 +55,8 @@ p:last-child {
 <p>IQT plans to train and hire skilled researchers in this cutting-edge research field, at the student, the post-doctoral and the faculty level</p>
 <p>IQT will hold periodic workshops and meetings in this field, to keep abreast of the latest developments, and also to motivate young researchers.</p>
 <p>IQT will update its objectives and priorities along with latest developments in the field, by holding periodic reviews.</p>
- 
 
 <br>
-
 
 <h3 style="color: #bb9065">Objectives (over 3 years):</h3>
 

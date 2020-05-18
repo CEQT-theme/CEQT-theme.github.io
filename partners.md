@@ -20,7 +20,7 @@ permalink: /partnerinstitutes/
 }
 </style>
 
-
+<h2 style="color: #bb9065"> Partner Institutes: </h2>
 <div class = "row">
 	<div class = "column">
 				<a href="http://www.rri.res.in/"><img src="/img/RRI_Logo.png" style="width: 90px; height: 150px; "></a>
