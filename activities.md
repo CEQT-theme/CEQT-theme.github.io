@@ -53,10 +53,10 @@ permalink: /activities/
 
 <h3 style="color: #bb9065">Roadmap:</h3>
 
-<p class="roadmap">IQT plans to set up international collaborations in this field, and take help of an international advisory committee to guide the research effort.</p>
-<p class="roadmap">IQT plans to train and hire skilled researchers in this cutting-edge research field, at the student, the post-doctoral and the faculty level</p>
-<p class="roadmap">IQT will hold periodic workshops and meetings in this field, to keep abreast of the latest developments, and also to motivate young researchers.</p>
-<p class="roadmap">IQT will update its objectives and priorities along with latest developments in the field, by holding periodic reviews.</p>
+<p class="roadmap">CEQT plans to set up international collaborations in this field, and take help of an international advisory committee to guide the research effort.</p>
+<p class="roadmap">CEQT plans to train and hire skilled researchers in this cutting-edge research field, at the student, the post-doctoral and the faculty level</p>
+<p class="roadmap">CEQT will hold periodic workshops and meetings in this field, to keep abreast of the latest developments, and also to motivate young researchers.</p>
+<p class="roadmap">CEQT will update its objectives and priorities along with latest developments in the field, by holding periodic reviews.</p>
 
 <br>
 
