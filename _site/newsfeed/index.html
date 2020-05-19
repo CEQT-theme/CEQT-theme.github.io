@@ -14,11 +14,26 @@
 <meta property="og:site_name" content="Your awesome title" />
 <script type="application/ld+json">
 {"@type":"WebSite","url":"http://localhost:4000/","headline":"Your awesome title","name":"Your awesome title","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@context":"https://schema.org"}</script>
+<script>
+window.onscroll = function() {myFunction()};
 
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/sass/submain.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
-<body><header class="site-header" role="banner">
+<body>
+
+  <header class="site-header" role="banner">
 
   <div class="wrapper">
   	<img src="/img/IISc_Logo.png" style="width: 200px; height: 130px; float:left">
@@ -31,13 +46,17 @@
         <div class="trigger"><a class="page-link" href="/">Home</a><a class="page-link" href="/activities/">Activities</a><a class="page-link" href="/members/">Members</a><a class="page-link" href="/newsfeed/">News Feed</a><a class="page-link" href="/openings/">Openings</a></div>
       </nav></div>
 </header>
-<div class="container">
-  <h2 style="color: #bb9065">Quantum Workshop on 24th July </h2>
+
+ 
 
 
-</div>
 
 <main class="page-content" aria-label="Content">
+      <div class="container">
+      <h2 style="color: #bb9065">Quantum Workshop on 24th July </h2>
+
+
+      </div>
       <div class="wrapper">
         <div class="home">
 
