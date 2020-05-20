@@ -25,6 +25,7 @@ html {
   .column {
     width: 80%;
     display: block;
+    padding:0 20px;
   }
 }
 
@@ -32,11 +33,11 @@ html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container {
+.container1 {
   padding: 0 16px;
 }
 
-.container::after, .row::after {
+.container1::after, .row::after {
   content: "";
   clear: both;
   display: table;
@@ -69,7 +70,7 @@ html {
   <div class="column">
     <div class="card">
       <img src="/img/apoorva.jpg"  style="width:80%; height: 200px; margin-left: 30px">
-      <div class="container">
+      <div class="container1">
         <h3>Apoorva Patel</h3>
         <p class="title">Quantum algorithms, Quantum simulations</p>
         <a href="mailto:adpatel@iisc.ac.in" style="color: #bb9065;"><p>adpatel@iisc.ac.in</p></a>
@@ -81,7 +82,7 @@ html {
   <div class="column">
     <div class="card">
       <img src="/img/vihor.png" style="width:100%; height: 200px">
-      <div class="container">
+      <div class="container1">
         <h3> Vibhor Singh </h3>
         <p class="title">Superconducting qubit devices</p>
         <a href="mailto:vsingh@iisc.ac.in" style="color: #bb9065;"><p>vsingh@iisc.ac.in</p></a>
@@ -93,7 +94,7 @@ html {
   <div class="column">
     <div class="card">
       <img src="/img/bala.png"  style="width:100%; height: 200px;">
-      <div class="container">
+      <div class="container1">
         <h3> Baladitya Suri</h3>
         <p class="title">Superconducting qubit devices</p>
         <a href="mailto:surib@iisc.ac.in" style="color: #bb9065;"><p>surib@iisc.ac.in</p></a>
@@ -110,7 +111,7 @@ html {
   <div class="column">
     <div class="card">
       <img src="/img/shankar.png"  style="width:100%; height: 200px">
-      <div class="container">
+      <div class="container1">
         <h3>Shankar K.S.</h3>
         <p class="title">Single photon sources</p>
         <br>
@@ -123,7 +124,7 @@ html {
   <div class="column">
     <div class="card">
       <img src="/img/sanjit.png" style="width:90%; height: 200px; margin-left: 10px">
-      <div class="container">
+      <div class="container1">
         <h3>Sanjit Chatterjee </h3>
         <p class="title">Post-quantum cryptography</p>
         <a href="mailto:sanjit@iisc.ac.in" style="color: #bb9065;"><p>sanjit@iisc.ac.in</p></a>
@@ -134,7 +135,7 @@ html {
   <div class="column">
     <div class="card">
       <img src="/img/asha.png" style="width:100%; height: 200px">
-      <div class="container">
+      <div class="container1">
         <h3> Asha Bharadwaj </h3>
         <p class="title">Integrated photonic quantum networks</p>
         <a href="mailto:asha@iisc.ac.in" style="color: #bb9065;"><p>asha@iisc.ac.in</p></a>
@@ -151,7 +152,7 @@ html {
     <div class="card">
     <img src="/img/varun.png"  style="width: 100%; height: 200px">
     <br>
-      <div class="container">
+      <div class="container1">
         <h3>Varun Raghunathan</h3>
         <p class="title">Integrated photonic quantum networks</p>
         <br>
@@ -163,7 +164,7 @@ html {
   <div class="column">
     <div class="card">
      <img src="/img/arindham.png"  style="width:100%; height: 200px;">
-      <div class="container">
+      <div class="container1">
         <h3>Arindam Ghosh</h3>
         <p class="title">2D material based single-photon detectors and sensors</p>
        <a href="mailto:arindam@iisc.ac.in" style="color: #bb9065;"><p>arindam@iisc.ac.in</p></a>
@@ -174,8 +175,8 @@ html {
 
   <div class="column">
     <div class="card">
-      <img src="/img/Chetan.png" style="width:240px; height: 200px; float: center;">
-      <div class="container">
+      <img src="/img/Chetan.png" style="width:100%; height: 200px; float: center;">
+      <div class="container1">
         <h3>Chetan Singh Thakur</h3>
         <p class="title">Quantum control electronics and signal processing</p>
        <a href="mailto:csthakur@iisc.ac.in" style="color: #bb9065;"><p>csthakur@iisc.ac.in</p></a>
@@ -190,8 +191,8 @@ html {
   <div class="row">
     <div class="column">
     <div class="card">
-      <img src="/img/rahul.png" style="width:240px; height: 200px; float: center;">
-      <div class="container">
+      <img src="/img/rahul.png" style="width:100%; height: 200px; float: center;">
+      <div class="container1">
         <h3> Rahul Pandit</h3>
         <p class="title">Condensed matter theorey</p>
         <a href="mailto:rahul@iisc.ac.in" style="color: #bb9065;"><p>rahul@iisc.ac.in</p></a>

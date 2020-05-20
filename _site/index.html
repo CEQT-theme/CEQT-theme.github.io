@@ -2,7 +2,7 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <!-- <meta name="viewport" content="width=device-width, initial-scale=1">--><!-- Begin Jekyll SEO tag v2.6.1 -->
+ <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>CEQT | IISc</title>
 <meta name="generator" content="Jekyll v4.0.1" />
 <meta property="og:title" content="Your awesome title" />
@@ -36,31 +36,34 @@ function myFunction() {
   <header class="site-header" role="banner">
 
   <div class="wrapper">
-    <img src="/img/IISc_Logo.png" style="width: 200px; height: 130px; float:left">
-    <a class="site-title" rel="author" href="/">Center for Excellence in Quantum Technology</a>
+   
     
-    <nav class="site-nav">
-    
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <img src="/img/IISc_Logo.png" class="responsive"> 
+    <a class="site-title" rel="author" href="/">Center for Excellence in Quantum Technology
 
+        </a>
+        <nav class="site-nav">
         <div class="trigger"><a class="page-link" href="/">Home</a><a class="page-link" href="/activities/">Activities</a><a class="page-link" href="/members/">Members</a><a class="page-link" href="/newsfeed/">News Feed</a><a class="page-link" href="/openings/">Openings</a></div>
-      </nav></div>
+      </nav>
+    
+    </div>
 </header>
 
+ 
 
 
 <main class="page-content" aria-label="Content">
-      <div class="container">
+       <div class="container">
              <style>
 
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1500px;
+  max-width: 1200px;
   position: relative;
   margin: auto;
-
 }
+
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -104,6 +107,17 @@ function myFunction() {
   animation-duration: 1.5s;
 }
 
+.slidebox {
+  width:1200px; 
+  height: 400px;
+}
+
+@media only screen and (max-width: 800px;) {
+  .slidesbox {
+    max-width: 600px;
+    max-height: 200px;
+  }
+
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -115,34 +129,37 @@ function myFunction() {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 800px;) {
   .text {font-size: 11px}
+}
+
+
 }
 </style>
 
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="/img/Quantum_Computing.jpg" style="width:1200px; height: 400px" />
+  <img src="/img/Quantum_Computing.jpg" class="" />
 </div>
 
 <div class="mySlides fade">
-  <img src="/img/IISc_building.jpg" style="width:1200px; height: 400px" />
+  <img src="/img/IISc_building.jpg" class="" />
 </div>
 
 <div class="mySlides fade">
-  <img src="/img/q1.jpg" style="width:1200px; height: 400px" />
+  <img src="/img/q1.jpg" class="" />
 </div>
 <div class="mySlides fade">
-  <img src="/img/qbit.jpeg" style="width:1200px; height: 400px" />
-</div>
-
-<div class="mySlides fade">
-  <img src="/img/singlephoton.png" style="width:1200px; height: 400px" />
+  <img src="/img/qbit.jpeg" class="" />
 </div>
 
 <div class="mySlides fade">
-  <img src="/img/QP.png" style="width:1200px; height: 400px" />
+  <img src="/img/singlephoton.png" class="" />
+</div>
+
+<div class="mySlides fade">
+  <img src="/img/QP.png" class="" />
 </div>
 
 </div>
@@ -225,16 +242,12 @@ function showSlides() {
 
 
           </div>
-      <div class="wrapper">
-        <div class="home">
-          
-      </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
 
   <div class="wrapper">
 
-    <div class="footer-col-3" style="float: right; color: grey;">
+    <div class="footer-col-3">
         <p>Creation of the Centre for Excellence in Quantum Technology is supported by the Ministry of Electronics and Information Technology, Government of India</p>
         <!--<p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p> -->
       </div>

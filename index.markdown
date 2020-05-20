@@ -8,11 +8,11 @@ title: Home
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1500px;
+  max-width: 1200px;
   position: relative;
   margin: auto;
-
 }
+
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -56,6 +56,17 @@ title: Home
   animation-duration: 1.5s;
 }
 
+.slidebox {
+  width:1200px; 
+  height: 400px;
+}
+
+@media only screen and (max-width: 800px;) {
+  .slidesbox {
+    max-width: 600px;
+    max-height: 200px;
+  }
+
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -67,8 +78,11 @@ title: Home
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 800px;) {
   .text {font-size: 11px}
+}
+
+
 }
 </style>
 
@@ -76,26 +90,26 @@ title: Home
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="/img/Quantum_Computing.jpg" style="width:1200px; height: 400px">
+  <img src="/img/Quantum_Computing.jpg" class="">
 </div>
 
 <div class="mySlides fade">
-  <img src="/img/IISc_building.jpg" style="width:1200px; height: 400px">
+  <img src="/img/IISc_building.jpg" class= "">
 </div>
 
 <div class="mySlides fade">
-  <img src="/img/q1.jpg" style="width:1200px; height: 400px">
+  <img src="/img/q1.jpg" class = "" >
 </div>
 <div class="mySlides fade">
-  <img src="/img/qbit.jpeg" style="width:1200px; height: 400px">
-</div>
-
-<div class="mySlides fade">
-  <img src="/img/singlephoton.png" style="width:1200px; height: 400px">
+  <img src="/img/qbit.jpeg" class ="">
 </div>
 
 <div class="mySlides fade">
-  <img src="/img/QP.png" style="width:1200px; height: 400px">
+  <img src="/img/singlephoton.png" class ="">
+</div>
+
+<div class="mySlides fade">
+  <img src="/img/QP.png" class="">
 </div>
 
 </div>

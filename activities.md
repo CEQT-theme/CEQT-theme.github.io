@@ -4,10 +4,9 @@ title: Activities
 permalink: /activities/
 ---
 
-<style>
-
-.roadmap{
-  width: 600px;
+<style type="text/css">
+  .roadmap{
+  max-width: 600px;
   margin: auto;
 }
 
@@ -44,12 +43,10 @@ permalink: /activities/
   border-top: 0;
   border-top-right-radius:0;
   border-top-left-radius:0;
-}
-
-
 
 
 </style>
+
 
 <h3 style="color: #bb9065">Roadmap:</h3>
 

@@ -11,7 +11,18 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { mar
 main { display: block; margin-top: 100px; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
 
 /** Images */
-img { max-width: 100%; vertical-align: middle; }
+img { max-width: 100%; vertical-align: middle; height: auto;}
+
+img.responsive{
+
+	width: 200px; height: 130px; float: left;
+}
+@media screen and (max-width: 800px) {img.responsive{ width:120px; height: 80px; float: left}}
+img.responsive1{
+
+}
+
+@media screen and (max-width: 800px) {img.responsive1{ display: none;}}
 
 /** Figures */
 figure > img { display: block; }
@@ -54,11 +65,14 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 /** Wrapper */
 .wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 
-@media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
+@media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(600px - (30px)); max-width: calc(600px - (30px)); padding-right: 5px; padding-left: 5px; } }
 
 .container { max-width: -webkit-calc(1200px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto;  padding-top: 40px; padding-right: 50px; padding-left: 120px; }
 
-@media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
+@media screen and (max-width: 800px) { .container { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
+
+
+
 
 
 /** Clearfix */
@@ -81,24 +95,32 @@ table th { background-color: #f0f0f0; border: 1px solid #dedede; border-bottom-c
 table td { border: 1px solid #e8e8e8; }
 
 /** Site header */
-.site-header { border-top: 7px solid #424242;  z-index: 1; border-bottom: 2px solid #e8e8e8; min-height: 55.95px; position: fixed; top: 0; width:100% ; background-color: #ede9df}
+.site-header { border-top: 7px solid #424242;  z-index: 1; border-bottom: 2px solid #e8e8e8; min-height: 130px; position: fixed; top: 0; width:100% ; background-color: #ede9df}
 
-.site-title { font-size: 25px; font-weight: 400; line-height: 80px; letter-spacing: -1px; margin-bottom: 0; float: left; }
+.site-title { font-size: 25px; font-weight: 400; line-height: 80px; letter-spacing: -1px; margin-bottom: 0; float: left; position: fixed; }
+@media screen and (max-width: 800px) {.site-title{ font-size: 20px; font-weight: 400; line-height: 30px;letter-spacing: -1px; margin-bottom: 0;}}
+
 
 .site-title, .site-title:visited { color: #424242; }
 
-.site-nav { float: left; line-height: 15px; }
+.site-nav { float: left; line-height: 15px; margin-top: 75px; margin-left: 4px;}
+@media screen and (max-width: 600px) {.site-nav { float: right; line-height: 15px; position: fixed; padding-left: 30px;}}
 
 .site-nav .nav-trigger { display: none; }
 
 .site-nav .menu-icon { display: none; }
 
-.site-nav .page-link { color: #111; line-height: 1.5; }
+.site-nav .page-link { color: #111; line-height: 1.5;}
 
 .site-nav .page-link:not(:last-child) { margin-right: 20px; }
 
-@media screen and (max-width: 600px) { .site-nav { position: absolute; top: 9px; right: 15px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: left; } .site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; } .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; } .site-nav .menu-icon > svg { fill: #424242; } .site-nav input ~ .trigger { clear: both; display: none; } .site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px; } .site-nav .page-link { display: block; padding: 5px 10px; margin-left: 20px; } .site-nav .page-link:not(:last-child) { margin-right: 0; } }
+/**
 
+@media screen and (max-width: 300px) { .site-nav { position: absolute; top: 9px; right: 15px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: left; } .site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; } .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; } .site-nav .menu-icon > svg { fill: #424242; } .site-nav input ~ .trigger { clear: both; display: none; } .site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px; } .site-nav .page-link { display: block; padding: 5px 10px; margin-left: 20px; } .site-nav .page-link:not(:last-child) { margin-right: 0; } }
+
+
+*/
+	
 /** Site footer */
 .site-footer { border-top: 1px solid #e8e8e8; padding: 30px 0; background-color: #fffefa}
 
@@ -114,14 +136,14 @@ table td { border: 1px solid #e8e8e8; }
 
 .footer-col-2 { width: -webkit-calc(20% - (30px / 2)); width: calc(20% - (30px / 2)); }
 
-.footer-col-3 { width: -webkit-calc(45% - (30px / 2)); width: calc(45% - (30px / 2)); }
+.footer-col-3 { width: -webkit-calc(45% - (30px / 2)); width: calc(45% - (30px / 2)); float: right; color: grey;}
 
-@media screen and (max-width: 800px) { .footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); } .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
+@media screen and (max-width: 800px) { .footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); } .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); float: left; color: grey; } }
 
 @media screen and (max-width: 600px) { .footer-col { float: none; width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
 
 /** Page content */
-.page-content { padding: 30px 0; flex: 1; }
+.page-content { padding: 20px 0; flex: 1; }
 
 .page-heading { font-size: 32px; }
 
