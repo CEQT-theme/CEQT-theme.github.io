@@ -98,7 +98,7 @@ table td { border: 1px solid #e8e8e8; }
 .site-header { border-top: 7px solid #424242;  z-index: 1; border-bottom: 2px solid #e8e8e8; min-height: 130px; position: fixed; top: 0; width:100% ; background-color: #ede9df}
 
 .site-title { font-size: 25px; font-weight: 400; line-height: 80px; letter-spacing: -1px; margin-bottom: 0; float: left; position: fixed; }
-@media screen and (max-width: 800px) {.site-title{ font-size: 20px; font-weight: 400; line-height: 30px;letter-spacing: -1px; margin-bottom: 0;}}
+@media screen and (max-width: 800px) {.site-title{ font-size: 21px; font-weight: 400; line-height: 30px;letter-spacing: -1px; margin-bottom: 0;}}
 
 
 .site-title, .site-title:visited { color: #424242; }
