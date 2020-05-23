@@ -23,9 +23,9 @@ html {
 
 @media screen and (max-width: 500px) {
   .column {
-    width: 80%;
+    width: 65%;
     display: block;
-    padding:0 20px;
+    padding:0 50px;
   }
 }
 
