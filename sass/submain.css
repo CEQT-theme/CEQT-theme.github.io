@@ -95,7 +95,7 @@ table th { background-color: #f0f0f0; border: 1px solid #dedede; border-bottom-c
 table td { border: 1px solid #e8e8e8; }
 
 /** Site header */
-.site-header { border-top: 7px solid #424242;  z-index: 1; border-bottom: 2px solid #e8e8e8; min-height: 130px; position: fixed; top: 0; width:100% ; background-color: #ede9df}
+.site-header { border-top: 7px solid #424242;  z-index: 1; border-bottom: 2px solid #e8e8e8; min-height: 130px; position: fixed; top: 0; width:100% ; background-color: #f1eada}
 
 .site-title { font-size: 25px; font-weight: 400; line-height: 80px; letter-spacing: -1px; margin-top: 5px; float: left; position: fixed; }
 @media screen and (max-width: 800px) {.site-title{ font-size: 22px; font-weight: 400; line-height: 30px;letter-spacing: -1px; margin-bottom: 0;}}
