@@ -69,7 +69,7 @@ html {
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="/img/apoorva.jpg"  style="width:80%; height: 200px; margin-left: 30px">
+      <img src="/img/apoorva.jpg"  style="width:80%; height: 200px; margin-left: 30px;">
       <div class="container1">
         <h3>Apoorva Patel</h3>
         <p class="title">Quantum algorithms, Quantum simulations</p>
@@ -81,7 +81,7 @@ html {
 
   <div class="column">
     <div class="card">
-      <img src="/img/vihor.png" style="width:100%; height: 200px">
+      <img src="/img/vihor.png" style="width:90%; height: 200px; margin-left: 15px;">
       <div class="container1">
         <h3> Vibhor Singh </h3>
         <p class="title">Superconducting qubit devices</p>
@@ -93,7 +93,7 @@ html {
   
   <div class="column">
     <div class="card">
-      <img src="/img/bala.png"  style="width:100%; height: 200px;">
+      <img src="/img/bala.png"  style="width:90%; height: 200px; margin-left: 15px;">
       <div class="container1">
         <h3> Baladitya Suri</h3>
         <p class="title">Superconducting qubit devices</p>
@@ -110,7 +110,7 @@ html {
 
   <div class="column">
     <div class="card">
-      <img src="/img/shankar.png"  style="width:100%; height: 200px">
+      <img src="/img/shankar.png"  style="width:90%; height: 200px; margin-left: 15px;">
       <div class="container1">
         <h3>Shankar K.S.</h3>
         <p class="title">Single photon sources</p>
@@ -134,9 +134,9 @@ html {
   </div>
   <div class="column">
     <div class="card">
-      <img src="/img/asha.png" style="width:100%; height: 200px">
+      <img src="/img/asha.png" style="width:90%; height: 200px; margin-left: 15px;">
       <div class="container1">
-        <h3> Asha Bharadwaj </h3>
+        <h3> Asha Bhardwaj </h3>
         <p class="title">Integrated photonic quantum networks</p>
         <a href="mailto:asha@iisc.ac.in" style="color: #bb9065;"><p>asha@iisc.ac.in</p></a>
         <a href="http://iap.iisc.ac.in/people/s-gopalakrishnan/"><p><button class="button">Website</button></p></a>
@@ -150,7 +150,7 @@ html {
 
   <div class="column">
     <div class="card">
-    <img src="/img/varun.png"  style="width: 100%; height: 200px">
+    <img src="/img/varun.png"  style="width:90%; height: 200px; margin-left: 15px;">
     <br>
       <div class="container1">
         <h3>Varun Raghunathan</h3>
@@ -163,7 +163,7 @@ html {
   </div>
   <div class="column">
     <div class="card">
-     <img src="/img/arindham.png"  style="width:100%; height: 200px;">
+     <img src="/img/arindham.png"  style="width:90%; height: 200px; margin-left: 15px;">
       <div class="container1">
         <h3>Arindam Ghosh</h3>
         <p class="title">2D material based single-photon detectors and sensors</p>
@@ -175,7 +175,7 @@ html {
 
   <div class="column">
     <div class="card">
-      <img src="/img/Chetan.png" style="width:100%; height: 200px; float: center;">
+      <img src="/img/Chetan.png" style="width:90%; height: 200px; margin-left: 15px;">
       <div class="container1">
         <h3>Chetan Singh Thakur</h3>
         <p class="title">Quantum control electronics and signal processing</p>
@@ -191,7 +191,7 @@ html {
   <div class="row">
     <div class="column">
     <div class="card">
-      <img src="/img/rahul.png" style="width:100%; height: 200px; float: center;">
+      <img src="/img/rahul.png" style="width:90%; height: 200px; margin-left: 15px;">
       <div class="container1">
         <h3> Rahul Pandit</h3>
         <p class="title">Condensed matter theorey</p>
