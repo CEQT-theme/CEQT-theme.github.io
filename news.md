@@ -4,4 +4,8 @@ title: News Feed
 permalink: /newsfeed/
 ---
 
-<h2 style="color: #bb9065">Quantum Workshop on 24th July </h2>
+<div class="list-group">
+  <a href="/quantumworkshop/" class="list-group-item disabled" style="font-size: 20px; color: #bb9065">24th July: Quantum Workshop 2020</a>
+ 
+</div>
+
