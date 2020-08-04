@@ -112,7 +112,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .site-nav .page-link { color: #111; line-height: 1.5;}
 
-.site-nav .page-link:not(:last-child) { margin-right: 20px; }
+.site-nav .page-link:not(:last-child) { margin-right: 15px; }
 
 /**
 
