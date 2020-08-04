@@ -14,7 +14,7 @@ permalink: /quantumworkshop/
 <body>
 <h2 style="color:#424242; text-align: center;"><u>Quantum Workshop 2020</u></h2>
 <div class="panel-body">
-<p>The Quantum workshop puts toegther a series of interesting talks and discussions on Quantum Technology which was held virtually on 24th July and hosted at <a href="https://ece.iisc.ac.in/~spcom/2020/thematic_workshop.html">SPCOM 2020.</a> It has an active participation from the <a href="https://iisc.ac.in/initiative-on-quantum-technologies/">Quantum Computing thematic cluster at IISc </a>  which is supported by the Ministry of Electronics and Information Technology, Government of India.</p></div>
+<p>The one-day workshop Current Trends in Quantum Information Processing was held virtually on 24th July, and hosted at <a href="https://ece.iisc.ac.in/~spcom/2020/thematic_workshop.html">SPCOM 2020.</a> It had active participation from the <a href="https://iisc.ac.in/initiative-on-quantum-technologies/">Quantum Computing thematic cluster at IISc, </a> and the <a href="https://ceqt.iisc.ac.in/">Centre for Excellence in Quantum Technology</a> supported by the Ministry of Electronics and Information Technology, Government of India.</p></div>
 <h2 style="color:#424242">Invited talks and Panel discussion</h2>
 <div class="panel-group">
  	
